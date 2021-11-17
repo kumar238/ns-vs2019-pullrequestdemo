@@ -35,6 +35,9 @@ namespace ns_vs2019_pullrequestdemo
                     await context.Response.WriteAsync("<h2>Hello World!<h2>");
                     await context.Response.WriteAsync("<h2>Hello World!<h2>");
                     await context.Response.WriteAsync("<h2>Hello World!<h2>");
+                     await context.Response.WriteAsync("<h2>Hi<h2>");
+                    await context.Response.WriteAsync("<h2>Hi!<h2>");
+                    await context.Response.WriteAsync("<h2>Hi!<h2>");
                 });
             });
         }
